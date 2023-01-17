@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var postcss = require('gulp-postcss');
-var sass = require('gulp-sass')(require('node-sass'))
+var sass = require('gulp-sass')(require('sass'))
 
 var autoprefixer = require('autoprefixer');
 var cssnano = require('cssnano');
